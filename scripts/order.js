@@ -40,7 +40,7 @@ const MIN_BY_SIZE = { xs: 149, s: 199, m: 249, l: 349, xl: 499, max: 999 };
 ymaps.ready(() => {
     // Создаем карту с центром в Москве.
     map = new ymaps.Map('map', {
-        center: [55.925117, 53.361968],
+        center: [55.751244, 37.618423],
         zoom: 5,
         controls: ['zoomControl']
     });
